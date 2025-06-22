@@ -712,7 +712,7 @@ function App() {
                   <div className="project-card">
                       <img src="Screenshot 2024-10-10 214407.png" alt="Travel Planner" className="project-img" />
                       <div className="project-info">
-                          <h3>PlanIt AI - Travel Planner</h3>
+                          <h3>TravelMate AI - Travel Planner</h3>
                           <p>An AI-powered travel planner that generates personalized trip plans using Google Maps API, Firebase, and Gemini AI based on user preferences, budget, and trip length.</p>
                           <div className="project-tags">
                               <span className="project-tag">React</span>
@@ -720,7 +720,7 @@ function App() {
                               <span className="project-tag">Gemini API</span>
                           </div>
                           <div className="project-links">
-                              <a href="#" className="project-link"><i className="fas fa-external-link-alt"></i> Live Demo</a>
+                              <a href="https://travel-mate-ai-kohl.vercel.app/" className="project-link"><i className="fas fa-external-link-alt"></i> Live Demo</a>
                               <a href="https://github.com/agraharisatyam/TravelMate-AI-r" className="project-link" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i> GitHub</a>
                           </div>
                       </div>

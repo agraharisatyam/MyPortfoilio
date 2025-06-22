@@ -368,7 +368,7 @@ function App() {
                       <button onClick={toggleTheme} className="theme-toggle">
                           <i className={`fas ${isDarkMode ? 'fa-sun' : 'fa-moon'}`}></i>
                       </button>
-                      <a href="#" className="resume-btn">
+                      <a href="satyam resume.pdf" className="resume-btn" target="_blank" rel="noopener noreferrer">
                           <i className="fas fa-file-alt"></i>
                           <span>Resume</span>
                       </a>

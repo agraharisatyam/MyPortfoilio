@@ -757,21 +757,21 @@ function App() {
                           <i className="fas fa-envelope contact-icon"></i>
                           <div>
                               <h4>Email Me</h4>
-                              <p>contact@yourdomain.com</p>
+                              <p>agraharisatyam789@gmail.com</p>
                           </div>
                       </div>
                       <div className="contact-method">
                           <i className="fas fa-phone-alt contact-icon"></i>
                           <div>
                               <h4>Call Me</h4>
-                              <p>+1 (123) 456-7890</p>
+                              <p>+91 9082351112</p>
                           </div>
                       </div>
                       <div className="contact-method">
                           <i className="fas fa-map-marker-alt contact-icon"></i>
                           <div>
                               <h4>My Location</h4>
-                              <p>New York, USA</p>
+                              <p>Mumbai, IND</p>
                           </div>
                       </div>
                   </div>

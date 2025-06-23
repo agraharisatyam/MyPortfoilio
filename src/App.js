@@ -246,6 +246,21 @@ function App() {
         }
       });
     }
+
+    // Advanced animation for project cards
+    gsap.set('.animated-project-card', { opacity: 0, y: 60, scale: 0.95, rotateY: 10 });
+    ScrollTrigger.batch('.animated-project-card', {
+      onEnter: batch => gsap.to(batch, {
+        opacity: 1,
+        y: 0,
+        scale: 1,
+        rotateY: 0,
+        duration: 1.1,
+        ease: 'power3.out',
+        stagger: 0.18,
+      }),
+      once: true
+    });
   }, []);
 
   const toggleTheme = () => {
@@ -691,7 +706,7 @@ function App() {
               <h2>My <span className="heading-highlight">Projects</span></h2>
               <div className="projects-grid">
                   {/* Project Card 1 */}
-                  <div className="project-card">
+                  <div className="project-card animated-project-card">
                       <img src="Screenshot 2025-04-17 174402.png" alt="Study Notion" className="project-img" />
                       <div className="project-info">
                           <h3>Study Notion</h3>
@@ -709,7 +724,7 @@ function App() {
                   </div>
 
                   {/* Project Card 2 */}
-                  <div className="project-card">
+                  <div className="project-card animated-project-card">
                       <img src="Screenshot 2024-10-10 214407.png" alt="Travel Planner" className="project-img" />
                       <div className="project-info">
                           <h3>TravelMate AI - Travel Planner</h3>
@@ -727,7 +742,7 @@ function App() {
                   </div>
 
                   {/* Project Card 3 */}
-                  <div className="project-card">
+                  <div className="project-card animated-project-card">
                       <img src="apps.40595.9007199266248466.31ea8f1c-9480-428b-b6a7-7351975bcbf2.jpeg" alt="Digital Diary" className="project-img" />
                       <div className="project-info">
                           <h3>Digital Diary</h3>

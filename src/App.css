@@ -2138,3 +2138,20 @@ body {
     font-size: 0.9em;
     line-height: 1;
 }
+
+.animated-project-card {
+    perspective: 800px;
+    transition: box-shadow 0.4s cubic-bezier(0.4,0,0.2,1), transform 0.4s cubic-bezier(0.4,0,0.2,1);
+    will-change: transform, box-shadow;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3), 0 0 0px var(--neon-mint);
+}
+.animated-project-card:hover {
+    transform: rotateY(8deg) scale(1.03) translateY(-8px);
+    box-shadow: 0 8px 32px 0 var(--neon-mint), 0 0 24px 2px var(--electric-purple), 0 4px 15px rgba(0,0,0,0.4);
+    border: 1.5px solid var(--neon-mint);
+    z-index: 2;
+}
+.animated-project-card:active {
+    transform: scale(0.98) rotateY(0deg);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
